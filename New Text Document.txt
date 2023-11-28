@@ -1,0 +1,22 @@
+Frontend-ohjelmointi 20.09.2023
+
+Huomioon otettavia asioita
+
+-laite
+-käyttöjärjestelmä
+-verkkoyhteys
+-eri käyttäjäryhmät
+-kulttuuri
+-käyttäjän (puhe)kieli
+
+käyttöliittymän suunnittelu kurssi iso suositus
+svelte.dev
+
+Hajoitetaan UI eri kokonaisuuksiin
+	-Navigoinnit
+	-Headerit
+	-Footerit
+	-Kortit
+Komponentit rakentuvat HTML-elementeistä
+	- tai toisista komponenteista
+

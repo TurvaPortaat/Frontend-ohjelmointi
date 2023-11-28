@@ -1,0 +1,55 @@
+Frontend-ohjelmointi 5op 06.07.2023
+
+Opintojaksoseloste
+
+lujaa koodausta
+
+Läsnätoteutus (etämahdollisuus).
+Tavoitteena osata kehittää interaktiivinen web-sovellus joka toimii
+selaimessa.
+Sekä osata lisää sanastoa (erilaisia lyhenteitä)
+Tiedonhakuosaamisen kehitys. Luennoilla saa pohjatietoutta, hae itse 
+lisää.
+
+Kestää syyslukukauden 2023.
+
+Materiaali opettajan tarjoama materiaali. Opiskelijan itsensä internetistä hankkima materiaali.
+
+AHOT -menettely, muut aiemmin hankitun osaamisen todistamisen tavat.
+
+Ohjelmistoja:
+Nodejs, Reactjs, Visual Studio Code, Svelte
+
+Arvosana perustuu opintojakson aikana suoritettaviin tehtäviin ja lopputyöhön. Jokaisella tehtävällä ja lopputyöllä on pitkiä palautusaikoja (7 päivää - useampi viikko), jolloin annettu takaraja on viimeinen.
+
+Ajankäyttö
+Luennot n.20 tuntia. Loput itsenäiseen työskentelyyn, harjoitusten
+tekemiseen ja lopputyöhön.
+
+Iso lopputyö. Jos palautat aiemmin, katso Juhon palaute ja korjaa
+ongelmat.
+
+Opintojaksopalaute annetaan Tuudossa opintojakson päätyttyä.
+
+Yhteydenpito tavat; Luennot, sähköposti, Teams, Moodle.
+
+Hylätty
+Et tee mitään
+
+Tyydyttävä 1-2
+Opiskelija toteuttaa verkkosovelluksen käyttöliittymän valitulla työkalulla. ja hän kykenee perustelemaan diipadaa
+Opiskelija osaa kertoa omasta toiminnastaan.
+Opiskelija tunnistaa ja osaa nimetä ammattietiikkaan vaikuttavia tekijöitä sekä nimetä turvallisuuteen vaikuttavia tekijöitä web-kehityksessä.
+
+Hyvä 3-4
+Opiskelija suunnittelee ja toteuttaa annettujen määreiden mukaisesti toimivan verkkosovelluksen käyttöliittymän.
+Opiskelija perustelee tekemänsä valinnat ja antaa vaihtoehtoisia ratkaisumalleja.
+
+5
+
+Sähköposti:
+juho.o.salli@samk.fi
+Moodle:
+Frontend ohjelmointi IC210417-3002
+
+Liity Sallin Teams-tiimiin Juhon oj:t 2023-2024 (linkki moodlessa)

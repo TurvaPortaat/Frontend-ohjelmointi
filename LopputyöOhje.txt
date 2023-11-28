@@ -1,0 +1,69 @@
+Luentomuistiinpanosofta 
+
+Huom! Tämä ei ole ryhmätyö eikä parityö VAAN yksilötyö!
+Havaittu plagiointi ja kopiointi johtaa sekä kopioivan henkilön, että
+kopioidun henkilön palautusten mitätöintiin vailla uusintamahdollisuutta.
+Plagiointi myös käsitellään sille kuuluvalla vakavuudella.
+
+Tehtäväsi on toteuttaa tämnä dokumentaation mukaine web-sovellus.
+
+Sovelluksen kuvaus
+Ohjelman avulla käyttäjä pystyy tekemään muistiinpanoja opintojaksojen
+luennoilta. Jokainen muistiinpano on liitetty yhteen opintojaksoon.
+
+Ohjelmassa on mahdollisuus listaa tallennetut muistiinpanot.
+Ohjelmaan voi lisätä uusia opintojaksoja.
+
+Kaikki tallennustoiminnot taphatuvat ohjelmassa paikallisesti.
+Dataa haetaan dokumentissa myöhemmin määriteltävästä REST API:sta.
+
+Toiminnot
+
+Muistiinpanojen tallennus
+
+Muistiinpano on tekstiä, jonka pituus on suurempi kuin nolla (0).
+Jos järjestelmässä ei ole yhtään opintojaksoa, muistiinpanojentallennusnäkymään ei pääse.
+Muistiinpano pitää liittä opintojaksoon.
+Muistiinpanolle annetaan tallennushetken aikaleima (päivämäärä ja aika).
+Muistiinpanojen luonti taphatuu "sessioissa";
+yhden session aikana voi tehdä muistiinpanoja vain yhdelle opintojaksolle.
+Session ensimmäisen muistiinpanotallennuksen jälkeen opintojakso lukittuu,
+-> jolloin kaikki sen session aikana luodut muistiinpanot tulevat liittymään siihen opintojaksoon, eikä käyttäjä kykene vaihtamaan opintojaksoa. Uusi sessio voidaan aloittaa esim. käymällä päänäkymässä tai erillisen painikkeen kautta.
+
+Tallenuksen jälkeen syötekenttä tyhjenee.
+
+Tallennuksen yhteydessä sedrftgyhujikol
+
+Muistiinpanojen listaus
+
+Listaus näyttää oletuksena kaikkien opintojaksojen muistiinpanot.
+Listatuksessa opintojaksosta näkyvät siihen kuuluva teksti, siihen liitetyn opintojakson inmi ja id sekä tallennushetken aikaleima.
+Käyttäjällä on mahdollisuus valita näkymään vain tietyn....
+
+Opintojakson lisäys
+
+Ohjelmassa on mahdollisuus lisätä opintojaksoja. ...
+
+Objektit 
+
+Opintojakso
+Opintojaksolla on nimi (merkkijono) ja id (kokonaisluku)
+
+Muistiinpano
+Muistiinpanolla on id (kokonaisluku), teksti (merkkijono), aikaleima (datetime) ja siihen yhdistetty opintojakso (opintojakso-objekti)
+
+Datan hakeminen
+Ohjelma hakee opintojaksot ja tallennetut muistiinpanot
+
+
+Opintojaksot
+
+
+Pisteytys
+
+Ei puolikkaita pisteitä, joko on tai ei.
+
+Heitä jotain css sekaan. Ei saa olla mukan palautuksessa node_modules.
+
+Kirjoittaka ReadMe tiedosto miten softa käynnistyy ja mitä se tekee.
+

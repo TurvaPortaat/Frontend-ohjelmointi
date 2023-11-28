@@ -1,0 +1,23 @@
+Frontend ohjelmointi 6.7.23 pt.2
+
+Käsiteltäviä aiheita
+
+-Moderni JavaScript
+-Frontend-frameworkeja
+-Kehitys-ja tuotantoympäristöt
+-Deployment (käyttöönotto)
+
+laita seurantaan joku lähde joka päivittää frontend devaus (tai suoraan fullstack) hommia.(eloisa ala)
+
+Arviointi
+
+-Harjoitukset eivät vaikuta arvosanaan.
+-Annetut Tehtävät vaikuttavat arvosanaan.
+-Loppuprojekti!
+ *isompi työ joka määrittää suurimman osan arvosanan pisteytyksestä.
+ *tämän arvioinnin tarkemmat kriteerit annetaan tehtävänannon
+  yhteydessä.
+
+- EI lopputenttiä
+
+Älä palauta keinoälyn(ChatGPT) tekemiä koodeja, se on plagiointia ja se myös käsitellään niin. (plus se on scuffed)

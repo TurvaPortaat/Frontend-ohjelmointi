@@ -1,0 +1,79 @@
+Frontend-luento 13.09.2023
+
+Hämmentävä lista lyhenteitä:
+SEO, SPA, MPA, SSR, CSR, SSG, Island Architecture..
+____________________________________________________________________
+SEO -Search Engine Optimization
+
+-Hakukoneoptimointi
+-Monia vaikuttavia asioita kuten:
+	- Ladattavan datan määrä
+	- Vastausaika
+	- Time to first byte
+	- Time to first drawn
+	- Saavutettavuus
+____________________________________________________________________
+MPA - Multi Page Application
+
+-Sivusto tarjoillaan erillisistä palvelimen lähettämästä HTML:stä
+-Jokainen sivulataus/navigointi aiheuttaa kutsun palvelimelle
+____________________________________________________________________
+SPA - Single Page Application
+
+-Yksi HTML toteuttaa koko sovelluksen
+- Palvelin palauttaa pienen palan HTML:ää ja sen kaveriksi
+JavaScriptiä joka toteuttaa sivun rakentamisen
+-Navigointi taphtuu sovelluksen logiikassa, ei uusia palvelinkutsuja
+____________________________________________________________________
+SSR - Server Side Rendering
+
+-Palvelin tuottaa HTML:n jonka selain vastaanottaa ja piirtää
+sellaisenaan
+____________________________________________________________________
+CSR -Client Side Rendering
+
+-Sivun piirto tapahtuu selaimen (clientin) toimesta
+-Palvelin lähettää JavaScriptiä, joka tekee renderöinnin
+____________________________________________________________________
+SSG - Static Site Generation
+
+-Kaikki HTML tuotetaan rakennusvaiheessa (build), jolloin
+palvelimen ei tarvitse kuin tarjoilla staattisia HTML-tiedostoja
+____________________________________________________________________
+Island Architecture
+
+-Rakennetaan sovellus pienmmistä osista, joissa yksi teknologia voi vastata yhdestä osasta
+____________________________________________________________________
+Progressive Enhancement
+
+-Aloitetaan pienestä ja lisätään ominaisuuksia (tai teknologiaa)
+tarpeen mukaan
+-Esimerkiksi ei oteta mukaan JavaScript-frameworkia jos sellaista ei
+tarvita
+- Tai ei oteta mukaan lainkaan JavaScriptiä jos pärjätään selaimen
+APIen kanssa
+-Tai ei ladata mukaan isoa tyylikirjastoa, jos pärjätään perus-CSS:n
+kanssa
+____________________________________________________________________
+Mikä valitaan?
+
+-Riippuu mitä ollaan tekemässsä		-Muuttuuko lähdedata?
+-Riippuu mihin ollaan tekemässä		
+					-Onko tarpeen pitää kulkevan
+					tietoliikenteen määrä pienenä?
+-Riippuu kelle ollaan tekemässä		
+					-Onko loppukäyttäjän laite					tehokas tietokone vai vanhempi					kännykkä
+-Onko kyseessä sovellus vai sivusto?	
+					-Millaisen verkkoyhteyden					päässä loppukäyttäjä on?
+-Onko jatkokehitystarpeita?		
+					-Millainen tech stack tiimillä
+					on valmiiksi? Onko varaa ottaa
+					mukaan lisää taakkaa uuden					teknologian myötä?
+-Onko paljon dynaamista sisältöä?
+-Onko sovelluksessa kirjautuminen?
+-Kuinka tärkeää SEO on?
+____________________________________________________________________
+Näitä voidaan yhdistellä
+
+-Landing page prerender, kaikille sama
+	-Sama sisältö kaikille
