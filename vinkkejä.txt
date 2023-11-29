@@ -1,0 +1,2 @@
+svelte-table - melkein sen näköne mitä siinä lopputyössä pitää olla -juho
+
