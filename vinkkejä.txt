@@ -1,2 +1,12 @@
 svelte-table - melkein sen näköne mitä siinä lopputyössä pitää olla -juho
 
+Juho lataili luennolla ja vaikutti ihan ok
+
+CSS ei oo pakko tehdä ite voi käyttää valmiitakin esim
+Svelte Material UI tms. (Tailwind CSS Juhon itse käyttämä).
+
+opensource palikat pitää auditoida, toisin sanoen tulevissa työpaikoissa
+ei välttämättä pääse käyttämään kaikkea. 
+Pitää olla tarkkana eikä vain ottaa ekaa asiaa kun tulee vastaan.
+
+Joskus voi koittaa pistää asiakkaan maksamaan että opit jotain uutta.
