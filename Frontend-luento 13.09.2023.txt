@@ -23,7 +23,7 @@ SPA - Single Page Application
 -Yksi HTML toteuttaa koko sovelluksen
 - Palvelin palauttaa pienen palan HTML:ää ja sen kaveriksi
 JavaScriptiä joka toteuttaa sivun rakentamisen
--Navigointi taphtuu sovelluksen logiikassa, ei uusia palvelinkutsuja
+-Navigointi tapahtuu sovelluksen logiikassa, ei uusia palvelinkutsuja
 ____________________________________________________________________
 SSR - Server Side Rendering
 
@@ -42,7 +42,7 @@ palvelimen ei tarvitse kuin tarjoilla staattisia HTML-tiedostoja
 ____________________________________________________________________
 Island Architecture
 
--Rakennetaan sovellus pienmmistä osista, joissa yksi teknologia voi vastata yhdestä osasta
+-Rakennetaan sovellus pienemmistä osista, joissa yksi teknologia voi vastata yhdestä osasta
 ____________________________________________________________________
 Progressive Enhancement
 

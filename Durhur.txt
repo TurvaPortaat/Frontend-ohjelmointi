@@ -1,0 +1,49 @@
+Vittu
+
+from typing import Union
+
+from fastapi import FastAPI, HTTPException
+
+app= FastAPI()
+
+shoes = {
+    0: {"id":0, "model": "Speedgoat 5", "manufacturer":"Hoka"},
+    1: {"id":1, "model": "Air Zoom", "manufacturer":"Nike"},
+    2: {"id":2, "model": "Speedgoat 4", "manufacturer":"Hoka"},
+}
+
+class ShoeBase(BaseModel):
+	model:str
+	manufacturer: str
+
+# ShoeDB
+# id, model, manu
+
+class ShoeDB(ShoeBase):
+	id: int
+
+@app.post("/shoes")
+def create_shoe():
+    return {'asd':12}
+
+
+# /shoes?manufacturer=Hoka
+@app.get("/shoes")
+def get_shoes(manufacturer: str = ""):  #optional
+    if manufacturer != "":
+        return [shoes[s] for s in shoes if shoes[s]['manufacturer']==manufacturer]
+    return [shoes[s] for s in shoes]
+    #Bisneslogiikka on se juttu
+
+@app.get("/shoes/{id}")
+def get_shoes(id: int):
+    return shoes[id]
+
+@app.delete("/shoes/{id}")
+def delete_shoe(id: int):
+    if id not in shoes:
+        raise HTTPException(status_code=404, detail='ID not found')
+    del shoes[id]
+    return {'message' f'Shoe with id {id} deleted'}
+
+#Käytä loppuharkkaan koodin testaukseen tätä
